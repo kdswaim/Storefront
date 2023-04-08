@@ -1,0 +1,162 @@
+body {
+  background-color: #fffcf8;
+  background: linear-gradient(#b7d9d0, #fffcf8, #f9ebcf);
+}
+
+.container{
+  margin: 15vh;
+  padding: 0;
+  background-color: #fffcf8;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 0.2)
+}
+
+.header-and-nav{
+  padding: 5vh;
+  position: sticky;
+  font-family: Snell Roundhand;
+}
+
+#brand{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: rgb(23, 23, 23);
+  display: flex;
+  justify-content: center;
+  font-family: Snell Roundhand;
+}
+
+.header {
+  display: flex;
+  color: rgb(23, 23, 23);
+  background-color: #fffcf8;
+}
+
+#search{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.shopping-icons{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  width: 100%;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  color: navy;
+  background-color: #fffcf8;
+}
+
+.nav-link{
+color: navy;
+}
+
+#mainvid{
+height: 100%;
+width: 100%;
+margin: 0;
+padding: 0;
+clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.iframe{
+  width: 100%;
+  height: 100%;
+  height: auto;
+}
+
+.best-sellers{
+width: 100%;
+height: auto;
+margin-top: 20px;
+padding: 0px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+#dress{
+width: 40vh;
+max-width: 100%;
+height: 40vh;
+object-fit: cover;
+padding: 10px;
+filter: grayscale(80%);
+}
+
+#dress:hover{
+filter: contrast(120%);
+}
+
+.bs-header{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  font-family: Snell Roundhand;
+}
+
+.bs-dresses{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+row-gap: 20px;
+}
+
+#blue-new{
+color:navy;
+font-family: 'Dancing Script', cursive;
+}
+
+footer{
+margin-top: 10vh;
+padding: 5vh;
+width: 100%;
+height: auto;
+background: rgb(32, 32, 67);
+}
+
+.footer-head{
+font-family: Snell Roundhand;
+color: white;
+width: 100%;
+display: flex;
+justify-content: center;
+}
+
+article, .footer-links li {
+margin: 0;
+padding: 0;
+color: #fffcf8;
+list-style: none;
+display: flex;
+justify-content: center;
+}
+
+.footer-links, a{
+display: flex;
+justify-content: center;
+padding-top: 1vh;
+padding-bottom: 1vh;
+color: #fffcf8;
+text-decoration: none;
+font-family: Snell Roundhand;
+}
+
+#copyright {
+color: #fffcf8;
+font-family: Snell Roundhand;
+width: 100%;
+display: flex;
+justify-content: center;
+}
